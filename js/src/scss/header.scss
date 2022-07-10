@@ -1,0 +1,38 @@
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: $primary-color;
+  box-shadow: 0px 0px 1px black;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+  }
+}
+.header__notification {
+  font-size: 15px;
+}
+
+.header__notification_hide {
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.header__notification_success {
+  color: $success-color;
+}
+
+.header__notification_info {
+  color: $primary-color;
+}
+
+.header__notification_error {
+  color: $error-color;
+}

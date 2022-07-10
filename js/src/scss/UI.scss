@@ -1,0 +1,13 @@
+.input, .select {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: $tertiary-color;
+  border-style: solid;
+  font-size: 20px;
+  background-color: $secondary-color;
+
+  &:focus {
+    outline: none;
+    border-color: $primary-color;
+  }
+}
