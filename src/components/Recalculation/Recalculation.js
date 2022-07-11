@@ -38,7 +38,7 @@ export class Recalculation extends Component {
       <div class="recalculation__currency">
         <h4 class="currency__title">Result currency</h4>
         <select class="select" name="currency" data-field="select-result"/>
-        <input class="input type="number" class="input" value="1" data-field="input-result" readonly/>
+        <input class="input" type="number" class="input" value="1" data-field="input-result" readonly/>
       </div>
     `
   }
