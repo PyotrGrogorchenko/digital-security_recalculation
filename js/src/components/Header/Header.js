@@ -23,11 +23,10 @@ export class Header extends Component {
 
   toHTML() {
     return `
-      <h1>
+      <h1 class="header__title">
         Digital Security, recalculation
       </h1>  
       <span class="header__notification" data-field="notification">
-        Digital Security, recalculation
       </span>  
     `
   }

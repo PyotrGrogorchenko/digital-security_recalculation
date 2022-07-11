@@ -7,6 +7,16 @@
   width: 100%;
 }
 
+.recalculation__currency {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.currency__title {
+  color: $tertiary-color;
+}
+
 @media (max-width: 1000px) {
   .recalculation {
     flex-direction: column;

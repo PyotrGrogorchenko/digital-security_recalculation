@@ -69,11 +69,6 @@ class Dom {
     this.$el.className = ''
   }
 
-  setText(text) {
-    this.$el.textContent = text
-  }
-
-
   get data() {
     return this.$el.dataset
   }

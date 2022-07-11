@@ -30,10 +30,16 @@ export class Recalculation extends Component {
 
   toHTML() {
     return `
-      <select class="select" name="currency" data-field="select-source"/>
-      <input class="input" type="number" class="input" value="1" data-field="input-source"/>
-      <select class="select" name="currency" data-field="select-result"/>
-      <input class="input type="number" class="input" value="1" data-field="input-result" readonly/>
+      <div class="recalculation__currency">
+        <h4 class="currency__title">Source currency</h4>
+        <select class="select" name="currency" data-field="select-source"/>
+        <input class="input" type="number" class="input" value="1" data-field="input-source"/>
+      </div>
+      <div class="recalculation__currency">
+        <h4 class="currency__title">Result currency</h4>
+        <select class="select" name="currency" data-field="select-result"/>
+        <input class="input type="number" class="input" value="1" data-field="input-result" readonly/>
+      </div>
     `
   }
 

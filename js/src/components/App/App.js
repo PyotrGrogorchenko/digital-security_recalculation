@@ -1,6 +1,6 @@
 import {$} from '@core/dom'
 import {Emitter} from '@core/Emitter'
-import {fetchCurrencyRate} from '@/utils/fetchCurrencyRate'
+import {fetchCurrencyRate} from '@/services/fetchCurrencyRate'
 import {getDefaultData} from './app.functions'
 
 export class App {
